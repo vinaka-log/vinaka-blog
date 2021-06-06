@@ -1,14 +1,17 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `vinakaの備忘録ブログです`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `yuta`,
+      summary: "Gatsbyで作成したブログサイトです。",
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: "Gatsbyで作成したブログサイトです。",
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `vinakalog`,
     },
   },
   plugins: [
